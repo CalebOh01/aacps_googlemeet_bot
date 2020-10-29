@@ -257,7 +257,7 @@ def mySchedule():
 
 if __name__ == "__main__":
 
-  op = int(input(("1. Add to Timetable\n2. Delete Row of Timetable\n3. View Timetable\n4. Start Bot\nEnter Option: ")))
+  op = int(input("1. Add to Timetable\n2. Delete Row of Timetable\n3. View Timetable\n4. Start Bot\nEnter Option: "))
   while not (op <= 4 and op >= 1):
     print('INVALID INPUT')
     op = int(input(("1. Add to Timetable\n2. Delete Row of Timetable\n3. View Timetable\n4. Start Bot\nEnter Option: ")))
